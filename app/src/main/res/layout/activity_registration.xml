@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+
+        <EditText android:id="@+id/emailEditText"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Email" android:inputType="textEmailAddress" />
+
+        <EditText android:id="@+id/passwordEditText"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Password" android:inputType="textPassword" />
+
+        <EditText android:id="@+id/nameEditText"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Name" />
+
+        <EditText android:id="@+id/ageEditText"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Age" android:inputType="number" />
+
+        <EditText android:id="@+id/heightEditText"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Height (cm)" android:inputType="numberDecimal" />
+
+        <EditText android:id="@+id/weightEditText"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Weight (kg)" android:inputType="numberDecimal" />
+
+        <EditText android:id="@+id/goalEditText"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Fitness Goal" />
+
+        <Button android:id="@+id/registerButton"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Register" />
+    </LinearLayout>
+</ScrollView>

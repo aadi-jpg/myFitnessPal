@@ -1,0 +1,46 @@
+﻿# Android / IntelliJ
+*.iml
+.gradle
+/local.properties
+/.idea
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Gradle
+.gradle/
+build/
+
+# Kotlin
+*.kotlin_module
+
+# Android Studio
+/.idea/*
+.idea/*
+*.iws
+.gradle
+local.properties
+.DS_Store
+
+# Generated files
+**/build/
+
+# Keystore files
+*.jks
+
+# Crashlytics / Fabric
+fabric.properties
+
+# Kotlin/Java
+*.class
+
+# Firebase config (do NOT push your google-services.json)
+app/google-services.json
+
+# Mac / Windows files
+.DS_Store
+Thumbs.db
+
+# Others
+*.log
