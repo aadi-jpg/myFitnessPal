@@ -40,7 +40,6 @@ This app allows users to log workouts, track nutrition, monitor weight progress,
 ### Backend & Database
 - **Firebase Authentication** – User sign-up and login.
 - **Firebase Firestore** – Cloud NoSQL database for user data, workouts, nutrition, and progress.
-- **Room (SQLite)** – Local caching and offline persistence (optional).
 
 ### Libraries
 - **Navigation Compose** – For navigation between screens.
